@@ -27,4 +27,4 @@ chan1=fits.open('first.fits')
 chan1[0].data=cube
 #chan1.header['NAXIS3']=95
 
-chan1.writeto('Combined_sublow.fits', clobber=True)
+chan1.writeto('Combined_sublow.fits', clobber=True)# Cube_Code
